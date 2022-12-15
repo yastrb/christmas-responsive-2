@@ -1,0 +1,45 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+    --header-height: 3.5rem;
+    --animate-snow-1: animate-snow-1 5s infinite ease-in-out;
+    --animate-snow-2: animate-snow-2 5s infinite ease-in-out;
+
+    --body-font: "Poppins", sans-serif;
+    --second-font: "Dancing Script", cursive;
+    --biggest-font-size: 2.5rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.9375rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+
+    --first-color: hsl(210, 80%, 54%);
+    --first-color-alt: hsl(210, 80%, 50%);
+    --title-color: hsl(210, 24%, 90%);
+    --text-color: hsl(210, 16%, 70%);
+    --white-color: #fff;
+    --body-color: hsl(210, 32%, 4%);
+
+    --z-tooltip: 10;
+    --z-fixed: 100;
+
+    @media screen and (min-width: 1024px) {
+        --biggest-font-size: 5rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: 0.875rem;
+        --smaller-font-size: 0.813rem;
+    }
+}
+
+
+
+
+

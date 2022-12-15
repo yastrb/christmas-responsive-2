@@ -1,0 +1,46 @@
+﻿.about {
+    &__container {
+        position: relative;
+        row-gap: 3.5rem;
+    }
+    &__description{
+        margin-bottom: 2rem;
+    }
+    &__data {
+        text-align: center;
+        .button{
+            display: inline-block;
+            background-color: var(--first-color);
+            padding: 1rem 2rem;
+            border-radius: 4rem;
+            color: var(--white-color);
+            font-weight: var(--font-medium);
+            transition: background .4s, box-shadow .4s;
+        
+            &:hover{
+                background-color: var(--first-color-alt);
+                box-shadow: 0 8px 32px hsla(210, 80%, 54%, .7);
+            }
+        }
+    }
+   
+    &__image{
+        width: 320px;
+        justify-self: center;
+    }
+    &__snow-1,
+    &__snow-2{
+        width: 50px;
+        position: absolute;
+    }
+    &__snow-1{
+        top: 12rem;
+        left: 1.5rem;
+        animation: var(--animate-snow-1);
+    }
+    &__snow-2{
+        right: -.75rem;
+        bottom: .5rem;
+        animation: var(--animate-snow-2);
+    }
+}

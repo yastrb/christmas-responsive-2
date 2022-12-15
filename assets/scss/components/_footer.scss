@@ -1,0 +1,55 @@
+﻿.footer {
+    overflow: hidden;
+
+    &__container{
+        position: relative;
+        padding-block: 4.5rem 2rem;
+        text-align: center;
+    }
+    &__logo,
+    &__social-link,
+    &__copy{
+        color: var(--white-color);
+    }
+    &__logo{
+        display: inline-block;
+        font-size: var(--h2-font-size);
+        font-family: var(--second-font);
+        margin-bottom: 1rem;
+    }
+    &__social{
+        display: flex;
+        justify-content: center;
+        column-gap: 1.5rem;
+
+        &-link{
+            font-size: 1.25rem;
+            transition: color .3s;
+
+            &:hover{
+                color: var(--first-color);
+            }
+        }
+    }
+    &__copy{
+        display: block;
+        margin-top: 2rem;
+        font-size: var(--smaller-font-size);
+    }
+    &__snow-1,
+    &__snow-2{
+        position: absolute;
+    }
+    &__snow-1{
+        width: 50px;
+        top: 4.5rem;
+        left: 0;
+        animation: var(--animate-snow-1);
+    }
+    &__snow-2{
+        width: 70px;
+        top: 6.5rem;
+        right: -3rem;
+        animation: var(--animate-snow-2);
+    }
+}

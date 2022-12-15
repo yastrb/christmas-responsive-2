@@ -1,0 +1,45 @@
+﻿.send {
+    &__container {
+        position: relative;
+        grid-template-columns: 200px;
+        justify-content: center;
+        row-gap: 3rem;
+        padding-top: 1.5rem;
+    }
+    &__card{
+        text-align: center;
+    }
+    &__img{
+        width: 180px;
+        margin-bottom: .75rem;
+    }
+    &__title{
+        font-size: var(--h3-font-size);
+        margin-bottom: .5rem;
+    }
+    &__description{
+        font-size: var(--small-font-size);
+        padding-inline: 1.5rem;
+    }
+    &__snow-1,
+    &__snow-2,
+    &__snow-3{
+        width: 50px;
+        position: absolute;
+    }
+    &__snow-1{
+        left: 0;
+        top: 7rem;
+        animation: var(--animate-snow-1);
+    }
+    &__snow-2{
+        top: 23rem;
+        right: 0;
+        animation: var(--animate-snow-2);
+    }
+    &__snow-3{
+        bottom: 9rem;
+        left: 0;
+        animation: var(--animate-snow-1);
+    }
+}
