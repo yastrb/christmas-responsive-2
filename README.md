@@ -3,7 +3,7 @@
 
 
 
-## Responsive Christmas Website using HTML CSS & JavaScript
+## Responsive Christmas Website using HTML SCSS & JavaScript
 
 - Contains animations when scrolling.
 - Smooth scrolling in each section.
